@@ -8,8 +8,14 @@
 import os
 import numpy as np
 import tensorflow as tf
-
 from itertools import cycle
+
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Convolution2D
+from tensorflow.keras.layers import MaxPooling2D
+from tensorflow.keras.layers import Flatten
+from tensorflow.keras.layers import Dense
+
 from scipy import interpolate
 from sklearn import svm, datasets
 from sklearn.metrics import roc_auc_score
@@ -43,8 +49,8 @@ validation_datagen = ImageDataGenerator(rescale=1/255)
 train_generator = train_datagen.flow_from_directory(
         'I:/tng/neural-net/train/',  # This is the source directory for training images
         classes = ['face', 'notface'],
-        target_size=(256, 256),  # All images will be resized to 256x256
-        batch_size=120,
+        target_size=(1024, 1024),  # All images will be resized to (was) 256x256
+        batch_size=120, # was 120
         # Use binary labels
         class_mode='binary')
 
@@ -52,16 +58,38 @@ train_generator = train_datagen.flow_from_directory(
 validation_generator = validation_datagen.flow_from_directory(
         'I:/tng/neural-net/valid/',  # This is the source directory for training images
         classes = ['face', 'notface'], 
-        target_size=(256, 256),  # All images will be resized to 256x256
-        batch_size=19,
+        target_size=(1024, 1024),  # All images will be resized to (was) 256x256
+        batch_size=19, # was 19
         # Use binary labels
         class_mode='binary',
         shuffle=False)
 
+# Original model is Flatten(256x256x3), Dense(64 relu), Dense(1, sigmoid)
 # This is a neat model, but I bet I could get similar accuracy with a way more efficient design
-model = tf.keras.models.Sequential([tf.keras.layers.Flatten(input_shape = (256,256,3)), 
-                                    tf.keras.layers.Dense(128, activation=tf.nn.relu), 
-                                    tf.keras.layers.Dense(1, activation=tf.nn.sigmoid)])
+model = Sequential()
+
+conv1 = Convolution2D(filters = 8, kernel_size = (3, 3), input_shape = (1024, 1024, 3), activation = 'relu')
+pool1 = MaxPooling2D(pool_size=(2,2))
+conv2 = Convolution2D(filters = 16, kernel_size = (3, 3), input_shape = (512, 512, 3), activation = 'relu')
+pool2 = MaxPooling2D(pool_size=(2,2))
+conv3 = Convolution2D(filters = 32, kernel_size = (3, 3), input_shape = (256, 256, 3), activation = 'relu')
+pool3 = MaxPooling2D(pool_size=(2,2))
+conv4 = Convolution2D(filters = 32, kernel_size = (3, 3), input_shape = (128, 128, 3), activation = 'relu')
+pool4 = MaxPooling2D(pool_size=(2,2))
+conv5 = Convolution2D(filters = 64, kernel_size = (3, 3), input_shape = (64, 64, 3), activation = 'relu')
+pool5 = MaxPooling2D(pool_size=(2,2))
+conv6 = Convolution2D(filters = 64, kernel_size = (3, 3), input_shape = (32, 32, 3), activation = 'relu')
+pool6 = MaxPooling2D(pool_size=(2,2))
+conv7 = Convolution2D(filters = 64, kernel_size = (3, 3), input_shape = (16, 16, 3), activation = 'relu')
+pool7 = MaxPooling2D(pool_size=(2,2))
+flatten1 = Flatten()
+dense1 = Dense(32, activation=tf.nn.relu)
+output = Dense(1, activation=tf.nn.sigmoid)
+
+structure = [conv1, pool1, conv2, pool2, conv3, pool3, conv4, pool4, conv5, pool5, conv6, pool6, conv7, pool7, flatten1, dense1, output]
+for layer in structure:
+        model.add(layer)
+model.summary()
 
 model.compile(optimizer = tf.optimizers.Adam(),
               loss = 'binary_crossentropy',

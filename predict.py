@@ -5,9 +5,8 @@
 # Read more at https://live.ece.utexas.edu/publications/2012/TIP%20BRISQUE.pdf
 
 import os
-import cv2
 import glob 
-import torch
+import torch # conda install pytorch
 import PIL.Image 
 import numpy as np
 import tensorflow as tf
@@ -51,10 +50,10 @@ with open(outfile, 'a') as o:
         img = PIL.Image.open(file)
         trans = transforms.ToTensor()
         # For high-RAM GPUs, you can uncomment the "to.cuda" and get more performance
-        gpu_img = trans(img)     #.to('cuda')
+        gpu_img = trans(img)  #.to('cuda')
         brisk = brisque(gpu_img) 
         scores.append(float(brisk))
-
+ 
         # Run classifier 
         img = image.load_img(file, target_size=(256, 256))
         x = image.img_to_array(img)
@@ -65,11 +64,14 @@ with open(outfile, 'a') as o:
         confidences.append(faceconfidence)
         if faceconfidence > 0.5:
             category = "face"
+            pass
         else:
             category = "not a face"
+            pass
         
         # Write scoring data
         text = "{:0>6d} of {:0>6d} : {:>24} : {:>8} : {:>8} : {}\n".format(counter, len(files), file, brisk, faceconfidence, category)
+        print(text)
         o.write(text)
 #        if not len(scores) % 10:
 #            ranked = sorted(scores)
