@@ -1037,3 +1037,372 @@ I:/tng/neural-net/train/face\15d4812601.jpeg : 37.50018310546875
 I:/tng/neural-net/train/face\16140f6501.jpeg : 32.49432373046875
 I:/tng/neural-net/train/face\174bc89901.jpeg : 44.62078857421875
 I:/tng/neural-net/train/face\19b1084301.jpeg : 30.68328857421875
+I:/tng/neural-net/train/face\13430157_1.png : 47.5716552734375
+I:/tng/neural-net/train/face\13490012_1.png : 40.00482177734375
+I:/tng/neural-net/train/face\13690063_1.png : 43.99737548828125
+I:/tng/neural-net/train/face\13750023_1.png : 51.421630859375
+I:/tng/neural-net/train/face\13780012_1.png : 42.83441162109375
+I:/tng/neural-net/train/face\13780019_1.png : 34.55755615234375
+I:/tng/neural-net/train/face\13790031_1.png : 47.4825439453125
+I:/tng/neural-net/train/face\13840014_1.png : 35.099365234375
+I:/tng/neural-net/train/face\1384700034.png : 59.0338134765625
+I:/tng/neural-net/train/face\13d5ee0090.png : 40.98895263671875
+I:/tng/neural-net/train/face\13_n0008_1.png : 42.6842041015625
+I:/tng/neural-net/train/face\14070089_1.png : 51.7667236328125
+I:/tng/neural-net/train/face\14100044_1.png : 43.13031005859375
+I:/tng/neural-net/train/face\14110056_1.png : 25.60791015625
+I:/tng/neural-net/train/face\14190105_1.png : 42.345703125
+I:/tng/neural-net/train/face\14230033_1.png : 34.049072265625
+I:/tng/neural-net/train/face\14250067_1.png : 17.803466796875
+I:/tng/neural-net/train/face\14260047_1.png : 63.2882080078125
+I:/tng/neural-net/train/face\14330046_1.png : 34.31219482421875
+I:/tng/neural-net/train/face\1435f30027.png : 40.01727294921875
+I:/tng/neural-net/train/face\14400067_1.png : 53.32684326171875
+I:/tng/neural-net/train/face\14490038_1.png : 33.169189453125
+I:/tng/neural-net/train/face\14500040_1.png : 50.06549072265625
+I:/tng/neural-net/train/face\14600036_1.png : 37.43780517578125
+I:/tng/neural-net/train/face\14620009_1.png : 66.45733642578125
+I:/tng/neural-net/train/face\14630081_1.png : 33.02044677734375
+I:/tng/neural-net/train/face\146u0072_1.png : 45.10162353515625
+I:/tng/neural-net/train/face\13430157_1.png : 47.5716552734375
+I:/tng/neural-net/train/face\13490012_1.png : 40.00482177734375
+I:/tng/neural-net/train/face\13690063_1.png : 43.99737548828125
+I:/tng/neural-net/train/face\13750023_1.png : 51.421630859375
+I:/tng/neural-net/train/face\13780012_1.png : 42.83441162109375
+I:/tng/neural-net/train/face\13780019_1.png : 34.55755615234375
+I:/tng/neural-net/train/face\13790031_1.png : 47.4825439453125
+I:/tng/neural-net/train/face\13840014_1.png : 35.099365234375
+I:/tng/neural-net/train/face\1384700034.png : 59.0338134765625
+I:/tng/neural-net/train/face\13d5ee0090.png : 40.98895263671875
+I:/tng/neural-net/train/face\13_n0008_1.png : 42.6842041015625
+I:/tng/neural-net/train/face\14070089_1.png : 51.7667236328125
+I:/tng/neural-net/train/face\14100044_1.png : 43.13031005859375
+I:/tng/neural-net/train/face\14110056_1.png : 25.60791015625
+I:/tng/neural-net/train/face\13430157_1.png : 47.5716552734375
+I:/tng/neural-net/train/face\13490012_1.png : 40.00482177734375
+I:/tng/neural-net/train/face\13690063_1.png : 43.99737548828125
+I:/tng/neural-net/train/face\13750023_1.png : 51.421630859375
+I:/tng/neural-net/train/face\13780012_1.png : 42.83441162109375
+I:/tng/neural-net/train/face\13780019_1.png : 34.55755615234375
+I:/tng/neural-net/train/face\13790031_1.png : 47.4825439453125
+I:/tng/neural-net/train/face\13840014_1.png : 35.099365234375
+I:/tng/neural-net/train/face\1384700034.png : 59.0338134765625
+I:/tng/neural-net/train/face\13d5ee0090.png : 40.98895263671875
+I:/tng/normalized\(1)0046_1.png : 38.9583740234375 :      1.0
+I:/tng/normalized\(1)0060_1.png : 30.1524658203125 :      0.0
+I:/tng/normalized\(1)0089_1.png : 41.692626953125 :      1.0
+I:/tng/normalized\(1)0113_1.png : 51.91302490234375 :      1.0
+I:/tng/normalized\(2)0001_1.png : 40.32867431640625 :      0.0
+I:/tng/normalized\(2)0007_1.png : 52.38104248046875 :      1.0
+I:/tng/normalized\(2)0016_1.png : 38.13714599609375 :      1.0
+I:/tng/normalized\(2)0024_1.png : 42.27032470703125 :      1.0
+I:/tng/normalized\(2)0060_1.png : 36.343017578125 :      1.0
+I:/tng/normalized\(2)0061_1.png : 38.59197998046875 :      0.0
+I:/tng/normalized\(1)0046_1.png : 38.9583740234375 :      1.0
+I:/tng/normalized\(1)0060_1.png : 30.1524658203125 :      0.0
+I:/tng/normalized\(1)0089_1.png : 41.692626953125 :      1.0
+I:/tng/normalized\(1)0113_1.png : 51.91302490234375 :      1.0
+I:/tng/normalized\(2)0001_1.png : 40.32867431640625 :      0.0
+I:/tng/normalized\(2)0007_1.png : 52.38104248046875 :      1.0
+I:/tng/normalized\(2)0016_1.png : 38.13714599609375 :      1.0
+I:/tng/normalized\(2)0024_1.png : 42.27032470703125 :      1.0
+I:/tng/normalized\(2)0060_1.png : 36.343017578125 :      1.0
+I:/tng/normalized\(2)0061_1.png : 38.59197998046875 :      0.0
+I:/tng/normalized\(3)0002_1.png : 41.21868896484375 :      1.0
+I:/tng/normalized\(3)0004_1.png : 53.882568359375 :      1.0
+I:/tng/normalized\(3)0007_1.png : 43.6121826171875 :      1.0
+I:/tng/normalized\(3)0025_1.png : 46.32196044921875 :      0.0
+I:/tng/normalized\(4)0001_1.png : 56.2330322265625 :      1.0
+I:/tng/normalized\(4)0003_2.png : 31.760498046875 :      1.0
+I:/tng/normalized\(4)0008_1.png : 8.74847412109375 :      0.0
+I:/tng/normalized\(4)0023_1.png : 54.8775634765625 :      1.0
+I:/tng/normalized\(5)0027_1.png : 46.45245361328125 :      1.0
+I:/tng/normalized\(8)0012_1.png : 75.068115234375 :      1.0
+I:/tng/normalized\--090031_1.png : 57.05975341796875 :      1.0
+I:/tng/normalized\-0000027_1.png : 51.331298828125 :      1.0
+I:/tng/normalized\-0020059_1.png : 48.622314453125 :      0.0
+I:/tng/normalized\-0030038_1.png : 54.717041015625 :      1.0
+I:/tng/normalized\-0040110_1.png : 45.28558349609375 :      0.0
+I:/tng/normalized\-0050074_1.png : 23.537109375 :      1.0
+I:/tng/normalized\-0060040_1.png : 32.07452392578125 :      1.0
+I:/tng/normalized\-0070016_1.png : 26.70751953125 :      1.0
+I:/tng/normalized\-0130136_1.png : 64.5281982421875 :      0.0
+I:/tng/normalized\-5-20015_1.png : 40.70562744140625 :      1.0
+I:/tng/normalized\-5880051_1.png : 66.597412109375 :      1.0
+I:/tng/normalized\-6-20016_1.png : 34.6644287109375 :      1.0
+I:/tng/normalized\-big0023_1.png : 46.8154296875 :      1.0
+I:/tng/normalized\-CU10053_1.png : 42.82952880859375 :      1.0
+I:/tng/normalized\-qhd0004_1.png : 26.7230224609375 :      1.0
+I:/tng/normalized\-ray0056_1.png : 46.6202392578125 :      1.0
+I:/tng/normalized\-sab0062_1.png : 46.07586669921875 :      1.0
+I:/tng/normalized\-zgg0135_1.png : 82.28436279296875 :      1.0
+I:/tng/normalized\00001.png : 29.52777099609375 :      1.0
+I:/tng/normalized\00004.png : 34.305908203125 :      1.0
+I:/tng/normalized\00006.png : 24.72149658203125 :      0.0
+I:/tng/normalized\00010001_1.png : 34.97479248046875 :      1.0
+I:/tng/normalized\00010001_3.png : 32.24774169921875 :      1.0
+I:/tng/normalized\00010035_1.png : 28.548828125 :      1.0
+I:/tng/normalized\00010045_1.png : 51.0875244140625 :      1.0
+I:/tng/normalized\00010046_1.png : 43.2987060546875 :      1.0
+I:/tng/normalized\00010052_1.png : 35.45166015625 :      1.0
+I:/tng/normalized\00010_1.png : 41.54205322265625 :      1.0
+I:/tng/normalized\00012_1.png : 25.965576171875 :      1.0
+I:/tng/normalized\00014_1.png : 45.80694580078125 :      1.0
+I:/tng/normalized\00015_1.png : 44.44757080078125 :      1.0
+I:/tng/normalized\00016_1.png : 48.7755126953125 :      1.0
+I:/tng/normalized\00017_1.png : 39.120361328125 :      1.0
+I:/tng/normalized\00018.png : 33.986328125 :      0.0
+I:/tng/normalized\00020.png : 35.01336669921875 : 0.8528603762388229
+I:/tng/normalized\00020001_1.png : 43.1939697265625 :      1.0
+I:/tng/normalized\00020009_1.png : 35.9873046875 :      1.0
+I:/tng/normalized\00020046_3.png : 35.513427734375 :      1.0
+I:/tng/normalized\00020047_1.png : 42.2918701171875 :      1.0
+I:/tng/normalized\00024_1.png : 46.5665283203125 :      1.0
+I:/tng/normalized\00029_1.png : 47.32757568359375 :      1.0
+I:/tng/normalized\00030002_1.png : 42.79766845703125 :      1.0
+I:/tng/normalized\00030036_3.png : 27.41864013671875 :      1.0
+I:/tng/normalized\00030039_3.png : 28.6290283203125 :      1.0
+I:/tng/normalized\00030047_1.png : 39.2591552734375 :      1.0
+I:/tng/normalized\00030048_1.png : 41.03314208984375 :      1.0
+I:/tng/normalized\00030_1.png : 37.72308349609375 :      1.0
+I:/tng/normalized\00037_1.png : 29.15130615234375 :      1.0
+I:/tng/normalized\00038_1.png : 27.6925048828125 :      0.0
+I:/tng/normalized\00040003_1.png : 36.38653564453125 :      1.0
+I:/tng/normalized\00040014_2.png : 24.68890380859375 :      1.0
+I:/tng/normalized\00040037_3.png : 32.61419677734375 :      1.0
+I:/tng/normalized\00040055_3.png : 32.36895751953125 : 0.09129190444946289
+I:/tng/normalized\00040072_1.png : 30.30413818359375 :      1.0
+I:/tng/normalized\00041.png : 34.3883056640625 :      1.0
+I:/tng/normalized\00043.png : 34.62298583984375 :      1.0
+I:/tng/normalized\00045_1.png : 41.47509765625 :      0.0
+I:/tng/normalized\00048_1.png : 43.13751220703125 :      1.0
+I:/tng/normalized\00050010_1.png : 25.15960693359375 :      1.0
+I:/tng/normalized\00050027_2.png : 30.513427734375 :      1.0
+I:/tng/normalized\00050040_1.png : 34.05352783203125 :      1.0
+I:/tng/normalized\00050048_1.png : 43.73736572265625 :      0.0
+I:/tng/normalized\00050_1.png : 58.13909912109375 :      1.0
+I:/tng/normalized\00051_1.png : 41.5665283203125 :      1.0
+I:/tng/normalized\00052_1.png : 30.688720703125 :      1.0
+I:/tng/normalized\00053_1.png : 34.43035888671875 :      1.0
+I:/tng/normalized\00056_1.png : 48.3472900390625 :      1.0
+I:/tng/normalized\00056_2.png : 50.72149658203125 :      1.0
+I:/tng/normalized\00057_1.png : 29.348388671875 :      0.0
+I:/tng/normalized\00059.png : 37.5482177734375 :      1.0
+I:/tng/normalized\00060015_1.png : 34.05029296875 :      1.0
+I:/tng/normalized\00060028_2.png : 51.48712158203125 :      1.0
+I:/tng/normalized\00060_1.png : 47.93756103515625 :      1.0
+I:/tng/normalized\00063_1.png : 71.7021484375 :      1.0
+I:/tng/normalized\00067_1.png : 51.44036865234375 :      1.0
+I:/tng/normalized\00068_1.png : 40.6043701171875 :      1.0
+I:/tng/normalized\00070004_2.png : 34.50494384765625 :      1.0
+I:/tng/normalized\00070029_1.png : 33.042724609375 :      1.0
+I:/tng/normalized\00070049_1.png : 39.44866943359375 :      1.0
+I:/tng/normalized\00076_1.png : 43.46209716796875 :      1.0
+I:/tng/normalized\00076_3.png : 42.17169189453125 :      1.0
+I:/tng/normalized\00080_1.png : 65.32366943359375 :      1.0
+I:/tng/normalized\00081_1.png : 44.085693359375 :      1.0
+I:/tng/normalized\00090005_1.png : 22.556640625 :      1.0
+I:/tng/normalized\00090019_1.png : 27.2244873046875 :      1.0
+I:/tng/normalized\00090030_1.png : 42.52630615234375 :      1.0
+I:/tng/normalized\00091_1.png : 32.05389404296875 :      1.0
+I:/tng/normalized\00092_1.png : 44.6026611328125 :      1.0
+I:/tng/normalized\00094_1.png : 46.010009765625 :      1.0
+I:/tng/normalized\00100039_1.png : 38.093505859375 :      1.0
+I:/tng/normalized\00100050_1.png : 34.43927001953125 :      1.0
+I:/tng/normalized\00100074_2.png : 25.6102294921875 :      1.0
+I:/tng/normalized\00100_1.png : 45.04351806640625 :      0.0
+I:/tng/normalized\00100_2.png : 37.35699462890625 :      0.0
+I:/tng/normalized\00103_1.png : 56.96527099609375 :      1.0
+I:/tng/normalized\00104_1.png : 74.49603271484375 :      1.0
+I:/tng/normalized\00110020_1.png : 24.467529296875 :      1.0
+I:/tng/normalized\00110027_1.png : 50.54205322265625 :      0.0
+I:/tng/normalized\00110050_2.png : 43.59197998046875 :      1.0
+I:/tng/normalized\00110_1.png : 36.37103271484375 :      0.0
+I:/tng/normalized\00115_3.png : 53.49505615234375 :      1.0
+I:/tng/normalized\00120021_1.png : 17.59033203125 :      1.0
+I:/tng/normalized\00120031_1.png : 33.173095703125 :      1.0
+I:/tng/normalized\00120051_1.png : 28.65618896484375 :      1.0
+I:/tng/normalized\00120056_2.png : 34.44134521484375 :      1.0
+I:/tng/normalized\00126_1.png : 48.74163818359375 :      1.0
+I:/tng/normalized\00129_1.png : 46.41241455078125 :      1.0
+I:/tng/normalized\00130009_1.png : 24.72998046875 :      1.0
+I:/tng/normalized\00130022_1.png : 43.0975341796875 :      1.0
+I:/tng/normalized\00130041_2.png : 41.26007080078125 :      1.0
+I:/tng/normalized\00130_1.png : 45.00860595703125 :      1.0
+I:/tng/normalized\00140023_1.png : 41.99114990234375 :      1.0
+I:/tng/normalized\00140053_1.png : 30.47955322265625 :      1.0
+000001 of 030336 : I:/tng/normalized\(1)0046_1.png : 38.9583740234375 :      1.0
+000002 of 030336 : I:/tng/normalized\(1)0060_1.png : 30.1524658203125 :      0.0
+000003 of 030336 : I:/tng/normalized\(1)0089_1.png : 41.692626953125 :      1.0
+000004 of 030336 : I:/tng/normalized\(1)0113_1.png : 51.91302490234375 :      1.0
+000005 of 030336 : I:/tng/normalized\(2)0001_1.png : 40.32867431640625 :      0.0
+000006 of 030336 : I:/tng/normalized\(2)0007_1.png : 52.38104248046875 :      1.0
+000007 of 030336 : I:/tng/normalized\(2)0016_1.png : 38.13714599609375 :      1.0
+000008 of 030336 : I:/tng/normalized\(2)0024_1.png : 42.27032470703125 :      1.0
+000009 of 030336 : I:/tng/normalized\(2)0060_1.png : 36.343017578125 :      1.0
+000010 of 030336 : I:/tng/normalized\(2)0061_1.png : 38.59197998046875 :      0.0
+000011 of 030336 : I:/tng/normalized\(3)0002_1.png : 41.21868896484375 :      1.0
+000012 of 030336 : I:/tng/normalized\(3)0004_1.png : 53.882568359375 :      1.0
+000013 of 030336 : I:/tng/normalized\(3)0007_1.png : 43.6121826171875 :      1.0
+000014 of 030336 : I:/tng/normalized\(3)0025_1.png : 46.32196044921875 :      0.0
+000015 of 030336 : I:/tng/normalized\(4)0001_1.png : 56.2330322265625 :      1.0
+000016 of 030336 : I:/tng/normalized\(4)0003_2.png : 31.760498046875 :      1.0
+000017 of 030336 : I:/tng/normalized\(4)0008_1.png : 8.74847412109375 :      0.0
+000018 of 030336 : I:/tng/normalized\(4)0023_1.png : 54.8775634765625 :      1.0
+000019 of 030336 : I:/tng/normalized\(5)0027_1.png : 46.45245361328125 :      1.0
+000020 of 030336 : I:/tng/normalized\(8)0012_1.png : 75.068115234375 :      1.0
+000021 of 030336 : I:/tng/normalized\--090031_1.png : 57.05975341796875 :      1.0
+000022 of 030336 : I:/tng/normalized\-0000027_1.png : 51.331298828125 :      1.0
+000023 of 030336 : I:/tng/normalized\-0020059_1.png : 48.622314453125 :      0.0
+000024 of 030336 : I:/tng/normalized\-0030038_1.png : 54.717041015625 :      1.0
+000025 of 030336 : I:/tng/normalized\-0040110_1.png : 45.28558349609375 :      0.0
+000026 of 030336 : I:/tng/normalized\-0050074_1.png : 23.537109375 :      1.0
+000027 of 030336 : I:/tng/normalized\-0060040_1.png : 32.07452392578125 :      1.0
+000028 of 030336 : I:/tng/normalized\-0070016_1.png : 26.70751953125 :      1.0
+000029 of 030336 : I:/tng/normalized\-0130136_1.png : 64.5281982421875 :      0.0
+000030 of 030336 : I:/tng/normalized\-5-20015_1.png : 40.70562744140625 :      1.0
+000031 of 030336 : I:/tng/normalized\-5880051_1.png : 66.597412109375 :      1.0
+000032 of 030336 : I:/tng/normalized\-6-20016_1.png : 34.6644287109375 :      1.0
+000033 of 030336 : I:/tng/normalized\-big0023_1.png : 46.8154296875 :      1.0
+000034 of 030336 : I:/tng/normalized\-CU10053_1.png : 42.82952880859375 :      1.0
+000035 of 030336 : I:/tng/normalized\-qhd0004_1.png : 26.7230224609375 :      1.0
+000036 of 030336 : I:/tng/normalized\-ray0056_1.png : 46.6202392578125 :      1.0
+000037 of 030336 : I:/tng/normalized\-sab0062_1.png : 46.07586669921875 :      1.0
+000038 of 030336 : I:/tng/normalized\-zgg0135_1.png : 82.28436279296875 :      1.0
+000001 of 030336 : I:/tng/normalized\(1)0046_1.png : 38.9583740234375 :      1.0 : face
+000002 of 030336 : I:/tng/normalized\(1)0060_1.png : 30.1524658203125 :      0.0 : not a face
+000003 of 030336 : I:/tng/normalized\(1)0089_1.png : 41.692626953125 :      1.0 : face
+000004 of 030336 : I:/tng/normalized\(1)0113_1.png : 51.91302490234375 :      1.0 : face
+000005 of 030336 : I:/tng/normalized\(2)0001_1.png : 40.32867431640625 :      0.0 : not a face
+000001 of 030336 : I:/tng/normalized\(1)0046_1.png : 38.9583740234375 :      1.0 : face
+000002 of 030336 : I:/tng/normalized\(1)0060_1.png : 30.1524658203125 :      0.0 : not a face
+000003 of 030336 : I:/tng/normalized\(1)0089_1.png : 41.692626953125 :      1.0 : face
+000004 of 030336 : I:/tng/normalized\(1)0113_1.png : 51.91302490234375 :      1.0 : face
+000005 of 030336 : I:/tng/normalized\(2)0001_1.png : 40.32867431640625 :      0.0 : not a face
+000006 of 030336 : I:/tng/normalized\(2)0007_1.png : 52.38104248046875 :      1.0 : face
+000007 of 030336 : I:/tng/normalized\(2)0016_1.png : 38.13714599609375 :      1.0 : face
+000008 of 030336 : I:/tng/normalized\(2)0024_1.png : 42.27032470703125 :      1.0 : face
+000009 of 030336 : I:/tng/normalized\(2)0060_1.png : 36.343017578125 :      1.0 : face
+000010 of 030336 : I:/tng/normalized\(2)0061_1.png : 38.59197998046875 :      0.0 : not a face
+000011 of 030336 : I:/tng/normalized\(3)0002_1.png : 41.21868896484375 :      1.0 : face
+000012 of 030336 : I:/tng/normalized\(3)0004_1.png : 53.882568359375 :      1.0 : face
+000013 of 030336 : I:/tng/normalized\(3)0007_1.png : 43.6121826171875 :      1.0 : face
+000014 of 030336 : I:/tng/normalized\(3)0025_1.png : 46.32196044921875 :      0.0 : not a face
+000015 of 030336 : I:/tng/normalized\(4)0001_1.png : 56.2330322265625 :      1.0 : face
+000016 of 030336 : I:/tng/normalized\(4)0003_2.png : 31.760498046875 :      1.0 : face
+000017 of 030336 : I:/tng/normalized\(4)0008_1.png : 8.74847412109375 :      0.0 : not a face
+000018 of 030336 : I:/tng/normalized\(4)0023_1.png : 54.8775634765625 :      1.0 : face
+000019 of 030336 : I:/tng/normalized\(5)0027_1.png : 46.45245361328125 :      1.0 : face
+000020 of 030336 : I:/tng/normalized\(8)0012_1.png : 75.068115234375 :      1.0 : face
+000021 of 030336 : I:/tng/normalized\--090031_1.png : 57.05975341796875 :      1.0 : face
+000022 of 030336 : I:/tng/normalized\-0000027_1.png : 51.331298828125 :      1.0 : face
+000023 of 030336 : I:/tng/normalized\-0020059_1.png : 48.622314453125 :      0.0 : not a face
+000024 of 030336 : I:/tng/normalized\-0030038_1.png : 54.717041015625 :      1.0 : face
+000025 of 030336 : I:/tng/normalized\-0040110_1.png : 45.28558349609375 :      0.0 : not a face
+000026 of 030336 : I:/tng/normalized\-0050074_1.png : 23.537109375 :      1.0 : face
+000027 of 030336 : I:/tng/normalized\-0060040_1.png : 32.07452392578125 :      1.0 : face
+000028 of 030336 : I:/tng/normalized\-0070016_1.png : 26.70751953125 :      1.0 : face
+000029 of 030336 : I:/tng/normalized\-0130136_1.png : 64.5281982421875 :      0.0 : not a face
+000030 of 030336 : I:/tng/normalized\-5-20015_1.png : 40.70562744140625 :      1.0 : face
+000031 of 030336 : I:/tng/normalized\-5880051_1.png : 66.597412109375 :      1.0 : face
+000032 of 030336 : I:/tng/normalized\-6-20016_1.png : 34.6644287109375 :      1.0 : face
+000033 of 030336 : I:/tng/normalized\-big0023_1.png : 46.8154296875 :      1.0 : face
+000034 of 030336 : I:/tng/normalized\-CU10053_1.png : 42.82952880859375 :      1.0 : face
+000035 of 030336 : I:/tng/normalized\-qhd0004_1.png : 26.7230224609375 :      1.0 : face
+000036 of 030336 : I:/tng/normalized\-ray0056_1.png : 46.6202392578125 :      1.0 : face
+000037 of 030336 : I:/tng/normalized\-sab0062_1.png : 46.07586669921875 :      1.0 : face
+000038 of 030336 : I:/tng/normalized\-zgg0135_1.png : 82.28436279296875 :      1.0 : face
+000039 of 030336 : I:/tng/normalized\00001.png : 29.52777099609375 :      1.0 : face
+000040 of 030336 : I:/tng/normalized\00004.png : 34.305908203125 :      1.0 : face
+000001 of 030336 : I:/tng/normalized\(1)0046_1.png : 38.9583740234375 :      1.0 : face
+000002 of 030336 : I:/tng/normalized\(1)0060_1.png : 30.1524658203125 :      0.0 : not a face
+000003 of 030336 : I:/tng/normalized\(1)0089_1.png : 41.692626953125 :      1.0 : face
+000004 of 030336 : I:/tng/normalized\(1)0113_1.png : 51.91302490234375 :      1.0 : face
+000005 of 030336 : I:/tng/normalized\(2)0001_1.png : 40.32867431640625 :      0.0 : not a face
+000006 of 030336 : I:/tng/normalized\(2)0007_1.png : 52.38104248046875 :      1.0 : face
+000007 of 030336 : I:/tng/normalized\(2)0016_1.png : 38.13714599609375 :      1.0 : face
+000008 of 030336 : I:/tng/normalized\(2)0024_1.png : 42.27032470703125 :      1.0 : face
+000009 of 030336 : I:/tng/normalized\(2)0060_1.png : 36.343017578125 :      1.0 : face
+000010 of 030336 : I:/tng/normalized\(2)0061_1.png : 38.59197998046875 :      0.0 : not a face
+000011 of 030336 : I:/tng/normalized\(3)0002_1.png : 41.21868896484375 :      1.0 : face
+000012 of 030336 : I:/tng/normalized\(3)0004_1.png : 53.882568359375 :      1.0 : face
+000013 of 030336 : I:/tng/normalized\(3)0007_1.png : 43.6121826171875 :      1.0 : face
+000014 of 030336 : I:/tng/normalized\(3)0025_1.png : 46.32196044921875 :      0.0 : not a face
+000015 of 030336 : I:/tng/normalized\(4)0001_1.png : 56.2330322265625 :      1.0 : face
+000016 of 030336 : I:/tng/normalized\(4)0003_2.png : 31.760498046875 :      1.0 : face
+000017 of 030336 : I:/tng/normalized\(4)0008_1.png : 8.74847412109375 :      0.0 : not a face
+000018 of 030336 : I:/tng/normalized\(4)0023_1.png : 54.8775634765625 :      1.0 : face
+000019 of 030336 : I:/tng/normalized\(5)0027_1.png : 46.45245361328125 :      1.0 : face
+000020 of 030336 : I:/tng/normalized\(8)0012_1.png : 75.068115234375 :      1.0 : face
+000021 of 030336 : I:/tng/normalized\--090031_1.png : 57.05975341796875 :      1.0 : face
+000022 of 030336 : I:/tng/normalized\-0000027_1.png : 51.331298828125 :      1.0 : face
+000023 of 030336 : I:/tng/normalized\-0020059_1.png : 48.622314453125 :      0.0 : not a face
+000024 of 030336 : I:/tng/normalized\-0030038_1.png : 54.717041015625 :      1.0 : face
+000025 of 030336 : I:/tng/normalized\-0040110_1.png : 45.28558349609375 :      0.0 : not a face
+000026 of 030336 : I:/tng/normalized\-0050074_1.png : 23.537109375 :      1.0 : face
+000027 of 030336 : I:/tng/normalized\-0060040_1.png : 32.07452392578125 :      1.0 : face
+000028 of 030336 : I:/tng/normalized\-0070016_1.png : 26.70751953125 :      1.0 : face
+000029 of 030336 : I:/tng/normalized\-0130136_1.png : 64.5281982421875 :      0.0 : not a face
+000030 of 030336 : I:/tng/normalized\-5-20015_1.png : 40.70562744140625 :      1.0 : face
+000031 of 030336 : I:/tng/normalized\-5880051_1.png : 66.597412109375 :      1.0 : face
+000032 of 030336 : I:/tng/normalized\-6-20016_1.png : 34.6644287109375 :      1.0 : face
+000033 of 030336 : I:/tng/normalized\-big0023_1.png : 46.8154296875 :      1.0 : face
+000034 of 030336 : I:/tng/normalized\-CU10053_1.png : 42.82952880859375 :      1.0 : face
+000035 of 030336 : I:/tng/normalized\-qhd0004_1.png : 26.7230224609375 :      1.0 : face
+000036 of 030336 : I:/tng/normalized\-ray0056_1.png : 46.6202392578125 :      1.0 : face
+000037 of 030336 : I:/tng/normalized\-sab0062_1.png : 46.07586669921875 :      1.0 : face
+000038 of 030336 : I:/tng/normalized\-zgg0135_1.png : 82.28436279296875 :      1.0 : face
+000039 of 030336 : I:/tng/normalized\00001.png : 29.52777099609375 :      1.0 : face
+000040 of 030336 : I:/tng/normalized\00004.png : 34.305908203125 :      1.0 : face
+000041 of 030336 : I:/tng/normalized\00006.png : 24.72149658203125 :      0.0 : not a face
+000042 of 030336 : I:/tng/normalized\00010001_1.png : 34.97479248046875 :      1.0 : face
+000043 of 030336 : I:/tng/normalized\00010001_3.png : 32.24774169921875 :      1.0 : face
+000044 of 030336 : I:/tng/normalized\00010035_1.png : 28.548828125 :      1.0 : face
+000045 of 030336 : I:/tng/normalized\00010045_1.png : 51.0875244140625 :      1.0 : face
+000046 of 030336 : I:/tng/normalized\00010046_1.png : 43.2987060546875 :      1.0 : face
+000047 of 030336 : I:/tng/normalized\00010052_1.png : 35.45166015625 :      1.0 : face
+000048 of 030336 : I:/tng/normalized\00010_1.png : 41.54205322265625 :      1.0 : face
+000049 of 030336 : I:/tng/normalized\00012_1.png : 25.965576171875 :      1.0 : face
+000050 of 030336 : I:/tng/normalized\00014_1.png : 45.80694580078125 :      1.0 : face
+000051 of 030336 : I:/tng/normalized\00015_1.png : 44.44757080078125 :      1.0 : face
+000052 of 030336 : I:/tng/normalized\00016_1.png : 48.7755126953125 :      1.0 : face
+000053 of 030336 : I:/tng/normalized\00017_1.png : 39.120361328125 :      1.0 : face
+000054 of 030336 : I:/tng/normalized\00018.png : 33.986328125 :      0.0 : not a face
+000055 of 030336 : I:/tng/normalized\00020.png : 35.01336669921875 : 0.8528603762388229 : face
+000056 of 030336 : I:/tng/normalized\00020001_1.png : 43.1939697265625 :      1.0 : face
+000057 of 030336 : I:/tng/normalized\00020009_1.png : 35.9873046875 :      1.0 : face
+000058 of 030336 : I:/tng/normalized\00020046_3.png : 35.513427734375 :      1.0 : face
+000059 of 030336 : I:/tng/normalized\00020047_1.png : 42.2918701171875 :      1.0 : face
+000060 of 030336 : I:/tng/normalized\00024_1.png : 46.5665283203125 :      1.0 : face
+000061 of 030336 : I:/tng/normalized\00029_1.png : 47.32757568359375 :      1.0 : face
+000062 of 030336 : I:/tng/normalized\00030002_1.png : 42.79766845703125 :      1.0 : face
+000063 of 030336 : I:/tng/normalized\00030036_3.png : 27.41864013671875 :      1.0 : face
+000064 of 030336 : I:/tng/normalized\00030039_3.png : 28.6290283203125 :      1.0 : face
+000065 of 030336 : I:/tng/normalized\00030047_1.png : 39.2591552734375 :      1.0 : face
+000066 of 030336 : I:/tng/normalized\00030048_1.png : 41.03314208984375 :      1.0 : face
+000067 of 030336 : I:/tng/normalized\00030_1.png : 37.72308349609375 :      1.0 : face
+000068 of 030336 : I:/tng/normalized\00037_1.png : 29.15130615234375 :      1.0 : face
+000069 of 030336 : I:/tng/normalized\00038_1.png : 27.6925048828125 :      0.0 : not a face
+000070 of 030336 : I:/tng/normalized\00040003_1.png : 36.38653564453125 :      1.0 : face
+000071 of 030336 : I:/tng/normalized\00040014_2.png : 24.68890380859375 :      1.0 : face
+000072 of 030336 : I:/tng/normalized\00040037_3.png : 32.61419677734375 :      1.0 : face
+000073 of 030336 : I:/tng/normalized\00040055_3.png : 32.36895751953125 : 0.09129190444946289 : not a face
+000074 of 030336 : I:/tng/normalized\00040072_1.png : 30.30413818359375 :      1.0 : face
+000075 of 030336 : I:/tng/normalized\00041.png : 34.3883056640625 :      1.0 : face
+000076 of 030336 : I:/tng/normalized\00043.png : 34.62298583984375 :      1.0 : face
+000077 of 030336 : I:/tng/normalized\00045_1.png : 41.47509765625 :      0.0 : not a face
+000078 of 030336 : I:/tng/normalized\00048_1.png : 43.13751220703125 :      1.0 : face
+000079 of 030336 : I:/tng/normalized\00050010_1.png : 25.15960693359375 :      1.0 : face
+000080 of 030336 : I:/tng/normalized\00050027_2.png : 30.513427734375 :      1.0 : face
+000081 of 030336 : I:/tng/normalized\00050040_1.png : 34.05352783203125 :      1.0 : face
+000082 of 030336 : I:/tng/normalized\00050048_1.png : 43.73736572265625 :      0.0 : not a face
+000083 of 030336 : I:/tng/normalized\00050_1.png : 58.13909912109375 :      1.0 : face
+000084 of 030336 : I:/tng/normalized\00051_1.png : 41.5665283203125 :      1.0 : face
+000085 of 030336 : I:/tng/normalized\00052_1.png : 30.688720703125 :      1.0 : face
+000086 of 030336 : I:/tng/normalized\00053_1.png : 34.43035888671875 :      1.0 : face
+000087 of 030336 : I:/tng/normalized\00056_1.png : 48.3472900390625 :      1.0 : face
+000088 of 030336 : I:/tng/normalized\00056_2.png : 50.72149658203125 :      1.0 : face
+000089 of 030336 : I:/tng/normalized\00057_1.png : 29.348388671875 :      0.0 : not a face
+000090 of 030336 : I:/tng/normalized\00059.png : 37.5482177734375 :      1.0 : face
+000091 of 030336 : I:/tng/normalized\00060015_1.png : 34.05029296875 :      1.0 : face
+000092 of 030336 : I:/tng/normalized\00060028_2.png : 51.48712158203125 :      1.0 : face
