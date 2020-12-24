@@ -29,16 +29,16 @@ data_dir = 'I:\tng\neural-net'
 subdir = ['train', 'valid']
 classes = ['face', 'notface']
 
-# Directory with our training dandelion pictures
+# Directory with our training "face" pictures
 train_face_dir = os.path.join('I:\tng\neural-net\train\face')
 
-# Directory with our training grass pictures
+# Directory with our training "not face" pictures
 train_notface_dir = os.path.join('I:\tng\neural-net\train\notface')
 
-# Directory with our validation dandelion pictures
+# Directory with our validation "face" pictures
 valid_face_dir = os.path.join('I:\tng\neural-net\valid\face')
 
-# Directory with our validation grass pictures
+# Directory with our validation "not face" pictures
 valid_notface_dir = os.path.join('I:\tng\neural-net\valid\notface')
 
 # All images will be rescaled by 1./255
@@ -49,30 +49,30 @@ validation_datagen = ImageDataGenerator(rescale=1/255)
 train_generator = train_datagen.flow_from_directory(
         'I:/tng/neural-net/train/',  # This is the source directory for training images
         classes = ['face', 'notface'],
-        target_size=(1024, 1024),  # All images will be resized to (was) 256x256
-        batch_size=120, # was 120
+        target_size=(256, 256),  # All images will be resized to (was) 256x256
+        batch_size=120, # was 120 // a 2GB video card can handle at least 16
         # Use binary labels
-        class_mode='binary')
+        class_mode='binary', shuffle=True)
 
 # Flow validation images in batches of 19 using valid_datagen generator
 validation_generator = validation_datagen.flow_from_directory(
         'I:/tng/neural-net/valid/',  # This is the source directory for training images
         classes = ['face', 'notface'], 
-        target_size=(1024, 1024),  # All images will be resized to (was) 256x256
-        batch_size=19, # was 19
+        target_size=(256, 256),  # All images will be resized to (was) 256x256
+        batch_size=19, # was 19 // a 2GB video card can handle at least 16
         # Use binary labels
         class_mode='binary',
-        shuffle=False)
+        shuffle=True)
 
 # Original model is Flatten(256x256x3), Dense(64 relu), Dense(1, sigmoid)
-# This is a neat model, but I bet I could get similar accuracy with a way more efficient design
 model = Sequential()
 
-conv1 = Convolution2D(filters = 8, kernel_size = (3, 3), input_shape = (1024, 1024, 3), activation = 'relu')
+flatten0 = Flatten(input_shape = (256, 256, 3))
+conv1 = Convolution2D(filters = 4, kernel_size = (3, 3), input_shape = (1024, 1024, 3), activation = 'relu')
 pool1 = MaxPooling2D(pool_size=(2,2))
-conv2 = Convolution2D(filters = 16, kernel_size = (3, 3), input_shape = (512, 512, 3), activation = 'relu')
+conv2 = Convolution2D(filters = 8, kernel_size = (3, 3), input_shape = (512, 512, 3), activation = 'relu')
 pool2 = MaxPooling2D(pool_size=(2,2))
-conv3 = Convolution2D(filters = 32, kernel_size = (3, 3), input_shape = (256, 256, 3), activation = 'relu')
+conv3 = Convolution2D(filters = 16, kernel_size = (3, 3), input_shape = (256, 256, 3), activation = 'relu')
 pool3 = MaxPooling2D(pool_size=(2,2))
 conv4 = Convolution2D(filters = 32, kernel_size = (3, 3), input_shape = (128, 128, 3), activation = 'relu')
 pool4 = MaxPooling2D(pool_size=(2,2))
@@ -83,10 +83,12 @@ pool6 = MaxPooling2D(pool_size=(2,2))
 conv7 = Convolution2D(filters = 64, kernel_size = (3, 3), input_shape = (16, 16, 3), activation = 'relu')
 pool7 = MaxPooling2D(pool_size=(2,2))
 flatten1 = Flatten()
+dense0 = Dense(72, activation=tf.nn.relu)
 dense1 = Dense(32, activation=tf.nn.relu)
 output = Dense(1, activation=tf.nn.sigmoid)
 
-structure = [conv1, pool1, conv2, pool2, conv3, pool3, conv4, pool4, conv5, pool5, conv6, pool6, conv7, pool7, flatten1, dense1, output]
+structure = [flatten0, dense0, output]
+# structure = [conv1, pool1, conv2, pool2, conv3, pool3, conv4, pool4, conv5, pool5, conv6, pool6, conv7, pool7, flatten1, dense1, output]
 for layer in structure:
         model.add(layer)
 model.summary()
@@ -96,11 +98,11 @@ model.compile(optimizer = tf.optimizers.Adam(),
               metrics=['accuracy'])
 
 history = model.fit(train_generator,
-      steps_per_epoch=12,  
-      epochs=20,
+      steps_per_epoch=23,  
+      epochs=40,
       verbose=1,
       validation_data = validation_generator,
-      validation_steps=8)
+      validation_steps=9)
 
 model.evaluate(validation_generator)
 
@@ -115,6 +117,3 @@ with open("model.json", "w") as json_file:
 # serialize weights to HDF5
 model.save_weights("model.h5")
 print("Saved model to disk")
- 
-
-

@@ -6,7 +6,7 @@
 
 import os
 import glob 
-import torch # conda install pytorch
+import torch 
 import PIL.Image 
 import numpy as np
 import tensorflow as tf
