@@ -27,7 +27,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 data_dir = 'I:\tng\neural-net'
 subdir = ['train', 'valid']
-classes = ['face', 'notface']
+classes = ['goodface', 'notface', 'badface'] # Three categories 
 
 # Directory with our training "face" pictures
 train_face_dir = os.path.join('I:\tng\neural-net\train\face')
@@ -48,20 +48,20 @@ validation_datagen = ImageDataGenerator(rescale=1/255)
 # Flow training images in batches of 120 using train_datagen generator
 train_generator = train_datagen.flow_from_directory(
         'I:/tng/neural-net/train/',  # This is the source directory for training images
-        classes = ['face', 'notface'],
-        target_size=(256, 256),  # All images will be resized to (was) 256x256
-        batch_size=120, # was 120 // a 2GB video card can handle at least 16
+        classes = ['goodface', 'notface', 'badface'],
+        target_size=(1024, 1024),  # All images will be resized to (was) 256x256
+        batch_size=7, # was 120 // a 2GB video card can handle at least 16
         # Use binary labels
-        class_mode='binary', shuffle=True)
+        class_mode='categorical', shuffle=True)
 
 # Flow validation images in batches of 19 using valid_datagen generator
 validation_generator = validation_datagen.flow_from_directory(
         'I:/tng/neural-net/valid/',  # This is the source directory for training images
-        classes = ['face', 'notface'], 
-        target_size=(256, 256),  # All images will be resized to (was) 256x256
-        batch_size=19, # was 19 // a 2GB video card can handle at least 16
+        classes = ['goodface', 'notface', 'badface'], 
+        target_size=(1024, 1024),  # All images will be resized to (was) 256x256
+        batch_size=7, # was 19 // a 2GB video card can handle at least 16
         # Use binary labels
-        class_mode='binary',
+        class_mode='categorical',
         shuffle=True)
 
 # Original model is Flatten(256x256x3), Dense(64 relu), Dense(1, sigmoid)
@@ -73,36 +73,49 @@ pool1 = MaxPooling2D(pool_size=(2,2))
 conv2 = Convolution2D(filters = 8, kernel_size = (3, 3), input_shape = (512, 512, 3), activation = 'relu')
 pool2 = MaxPooling2D(pool_size=(2,2))
 conv3 = Convolution2D(filters = 16, kernel_size = (3, 3), input_shape = (256, 256, 3), activation = 'relu')
+conv3a = Convolution2D(filters = 32, kernel_size = (3, 3), activation='relu')
 pool3 = MaxPooling2D(pool_size=(2,2))
 conv4 = Convolution2D(filters = 32, kernel_size = (3, 3), input_shape = (128, 128, 3), activation = 'relu')
+conv4a = Convolution2D(filters = 32, kernel_size = (3, 3), activation = 'relu')
 pool4 = MaxPooling2D(pool_size=(2,2))
 conv5 = Convolution2D(filters = 64, kernel_size = (3, 3), input_shape = (64, 64, 3), activation = 'relu')
+conv5a = Convolution2D(filters = 64, kernel_size = (3, 3), activation = 'relu')
 pool5 = MaxPooling2D(pool_size=(2,2))
-conv6 = Convolution2D(filters = 64, kernel_size = (3, 3), input_shape = (32, 32, 3), activation = 'relu')
+conv6 = Convolution2D(filters = 128, kernel_size = (3, 3), input_shape = (32, 32, 3), activation = 'relu')
+conv6a = Convolution2D(filters = 128, kernel_size = (3, 3), activation = 'relu')
 pool6 = MaxPooling2D(pool_size=(2,2))
-conv7 = Convolution2D(filters = 64, kernel_size = (3, 3), input_shape = (16, 16, 3), activation = 'relu')
+conv7 = Convolution2D(filters = 128, kernel_size = (3, 3), input_shape = (16, 16, 3), activation = 'relu')
+conv7a = Convolution2D(filters = 128, kernel_size = (3, 3), activation = 'relu')
 pool7 = MaxPooling2D(pool_size=(2,2))
 flatten1 = Flatten()
 dense0 = Dense(72, activation=tf.nn.relu)
 dense1 = Dense(32, activation=tf.nn.relu)
-output = Dense(1, activation=tf.nn.sigmoid)
+dense2 = Dense(128, activation=tf.nn.relu)
+output = Dense(3, activation=tf.nn.sigmoid)
 
-structure = [flatten0, dense0, output]
+# Original recipe (gets >85% on three categories)
+# structure = [flatten0, dense0, output]
+
+# JR's attempt (not bad!)
 # structure = [conv1, pool1, conv2, pool2, conv3, pool3, conv4, pool4, conv5, pool5, conv6, pool6, conv7, pool7, flatten1, dense1, output]
+
+# Based on VGG concept
+structure = [conv1, pool1, conv2, pool2, conv3, conv3a, pool3, conv4, conv4a, conv4a, pool4, conv5, conv5a, conv5a, pool5, conv6, conv6a, conv6a, conv6a, pool6, conv7, conv7a, conv7a, pool7, flatten1, dense2, dense2, output]
+
 for layer in structure:
         model.add(layer)
 model.summary()
 
 model.compile(optimizer = tf.optimizers.Adam(),
-              loss = 'binary_crossentropy',
+              loss = 'categorical_crossentropy',
               metrics=['accuracy'])
 
 history = model.fit(train_generator,
-      steps_per_epoch=23,  
-      epochs=40,
+      steps_per_epoch=19,  
+      epochs=100,
       verbose=1,
       validation_data = validation_generator,
-      validation_steps=9)
+      validation_steps=11)
 
 model.evaluate(validation_generator)
 
